@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./src/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-items">
+                    <div class="logo">
+                        <div class="logo__img">
+                            <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="logo__slogan">
+                            <span class="slogan">Здесь вы найдете любой <br> транспорт и груз</span>
+                        </div>
+                    </div>
+                    <div class="nav-burger">
+                        <span class="nav-burger__name">Меню</span>
+                        <button type="button" class="user__btn">
+                            <img src="./img/drop_down_btn.png" alt="img">
+                        </button>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-items">
+                            <div class="nav-item">
+                                <a class="nav-item__link" href="#">Грузы</a>
+                                <button type="button" class="nav-item__img">
+                                    <img src="./img/drop_down_btn.png" alt="btn">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="nav-items">
+                            <div class="nav-item">
+                                <a class="nav-item__link" href="#">Транспорт</a>
+                                <button type="button" class="nav-item__img">
+                                    <img src="./img/drop_down_btn.png" alt="btn">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="nav-items">
+                            <div class="nav-item">
+                                <a class="nav-item__link" href="#">Аукцион</a>
+                                <button type="button" class="nav-item__img">
+                                    <img src="./img/drop_down_btn.png" alt="btn">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="nav-items">
+                            <div class="nav-item">
+                                <a class="nav-item__link" href="#">О нас</a>
+                            </div>
+                        </div>
+                        <div class="nav-items">
+                            <div class="nav-item">
+                                <a class="nav-item__link" href="#">Новости</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <button class="search__btn">
+                            <img src="./img/search_btn.png" alt="btn">
+                        </button>
+                    </div>
+                    <div class="languages__items">
+                        <div class="language__item">
+                            <span сlass="language__name">Eur</span>
+                            <div class="language__btn">
+                                <img src="./img/drop_down_btn.png" alt="drop down">
+                            </div>
+                        </div>
+                        <div class="language__item">
+                            <span сlass="language__name">Рус</span>
+                            <div class="language__btn">
+                                <img src="./img/drop_down_btn.png" alt="drop down">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="acc__menu">
+                        <span class="nav-burger__name">Аккаунт</span>
+                        <button type="button" class="user__btn">
+                            <img src="./img/drop_down_btn.png" alt="img">
+                        </button>
+                    </div>
+                    <div class="account-items">
+                        <div class="account-actions">
+                            <button type="button" class="account-actions__faforites">
+                                <img src="./img/faforites_btn.png" alt="faforites_btn">
+                            </button>
+                            <button type="button" class="account-actions__notification">
+                                <img src="./img/notification_btn.png" alt="notification_btn">
+                            </button>
+                        </div>
+                        <div class="user-info">
+                            <div class="user-photo">
+                                <a href="#">
+                                    <img class="user-photo__img" src="./img/user_photo.svg" alt="user photo">
+                                </a>
+                            </div>
+                            <div class="user">
+                                <span class="user__name">Егор</span>
+                                <button type="button" class="user__btn">
+                                    <img src="./img/drop_down_btn.png" alt="img">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-account">
+                        <button type="button" class="add-acount__btn">
+                            <img src="./img/button.svg" alt="add_button">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="container">
+                <div class="main-container">
+                    <div class="menu">
+                        <div class="menu-title">
+                            Ваш кабинет
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-item menu-border">
+                                <div class="menu-items__title">
+                                    <div class="menu-item__title">
+                                        <div class="menu-item__title-img">
+                                            <img src="./img/title_box.png" alt="img">
+                                        </div>
+                                        <span class="notif">Грузы</span>
+                                    </div>
+                                    <button class=" menu-item__title-btn">
+                                        <img src="./img/drop_down_open.png" alt="img">
+                                    </button>
+                                </div>
+                                <div class="menu-item__list list-hide">
+                                    <ul class="menu-item__list-ul">
+                                        <li>Мои грузы</li>
+                                        <li>Не подтвержденные</li>
+                                        <li class="notif">В работе</li>
+                                        <li>Скрытые</li>
+                                        <li>Выполненные</li>
+                                        <li>Мои маршруты</li>
+                                        <li>Мои сотрудники</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-item menu-border">
+                                <div class="menu-items__title">
+                                    <div class="menu-item__title">
+                                        <div class="menu-item__title-img">
+                                            <img src="./img/delivery-truck.png" alt="img">
+                                        </div>
+                                        <span>Транспорт</span>
+                                    </div>
+                                    <button class="menu-item__title-btn">
+                                        <img src="./img/drop_down_open.png" alt="img">
+                                    </button>
+                                </div>
+                                <div class="menu-item__list list-hide">
+                                    <ul class="menu-item__list-ul">
+                                        <li>Мой транспорт</li>
+                                        <li>Мои авто</li>
+                                        <li>Не подтверждённые</li>
+                                        <li>В работе</li>
+                                        <li>Скрытые</li>
+                                        <li>Выполненные</li>
+                                        <li>Мои водители</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-item menu-border">
+                                <div class="menu-items__title">
+                                    <div class="menu-item__title">
+                                        <div class="menu-item__title-img">
+                                            <img src="./img/surface.png" alt="img">
+                                        </div>
+                                        <span>Аукцион грузы</span>
+                                    </div>
+                                    <button class="menu-item__title-btn">
+                                        <img src="./img/drop_down_open.png" alt="img">
+                                    </button>
+                                </div>
+                                <div class="menu-item__list list-hide">
+                                    <ul class="menu-item__list-ul">
+                                        <li>Мои аукционы</li>
+                                        <li>Мои ставки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-item menu-border">
+                                <div class="menu-items__title">
+                                    <div class="menu-item__title">
+                                        <div class="menu-item__title-img">
+                                            <img src="./img/surface.png" alt="img">
+                                        </div>
+                                        <span>Аукцион транспорт</span>
+                                    </div>
+                                    <button class="menu-item__title-btn">
+                                        <img src="./img/drop_down_open.png" alt="img">
+                                    </button>
+                                </div>
+                                <div class="menu-item__list list-hide">
+                                    <ul class="menu-item__list-ul">
+                                        <li>Мои аукционы</li>
+                                        <li>Мои ставки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-item menu-border">
+                                <div class="menu-items__title">
+                                    <div class="menu-item__title">
+                                        <div class="menu-item__title-img">
+                                            <img src="./img/business-and-trade.png" alt="img">
+                                        </div>
+                                        <span>Компания</span>
+                                    </div>
+                                    <button class="menu-item__title-btn">
+                                        <img src="./img/drop_down_open.png" alt="img">
+                                    </button>
+                                </div>
+                                <div class="menu-item__list list-hide">
+                                    <ul class="menu-item__list-ul">
+                                        <li>Моя компания</li>
+                                        <li>Мои ставки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item__title">
+                                    <div class="menu-item__title-img">
+                                        <img src="./img/settings.png" alt="img">
+                                    </div>
+                                    <span>Настройка</span>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item__title">
+                                    <div class="menu-item__title-img">
+                                        <img src="./img/affiliate.png" alt="img">
+                                    </div>
+                                    <span>Реф. программа</span>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item__title">
+                                    <div class="menu-item__title-img">
+                                        <img src="./img/discount.png" alt="img">
+                                    </div>
+                                    <span>Ваш статус</span>
+                                </div>
+                            </div>
+                            <div class="menu-item menu-border">
+                                <div class="menu-item__title">
+                                    <div class="menu-item__title-img">
+                                        <img src="./img/megaphone.png" alt="img">
+                                    </div>
+                                    <span>Реклама</span>
+                                </div>
+                            </div>
+                            <div class="menu-item__button">
+                                <button class="log-out__button" type="button">Выйти</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-container">
+                            <div class="breadcrumb">
+                                <div class="breadcrumb-button">
+                                    <button class="breadcrumb-button__btn" type="button">
+                                        <img src="./img/Arrow.png" alt="arrow">
+                                        </buttont>
+                                </div>
+                                <div class="breadcrumb-nav">
+                                    <span>Хлебные крошки</span>
+                                </div>
+                            </div>
+                            <div class="menu-btn">
+                                <button class="menu-btn__btn">
+                                    <img src="./img/drop_down_btn.png" alt="img">
+                                </button>
+                            </div>
+                            <div class="content-items">
+                                <div class="form">
+                                    <form id="form" action="#" class="form-body">
+                                        <div class="form-wrap">
+                                            <h1 class="form-body_company-name">(ООО&laquo;АККОМ&raquo;)</h1>
+                                        </div>
+                                        <div class="form-item__title">Информация о компании</div>
+                                        <div class="form-wrap">
+                                            <div class="form-items">
+                                                <div class="form-items__item">
+                                                    <div class="form-item long">
+                                                        <label class="form-item__label" for="">Вы?</label>
+                                                        <select class="form-item__select" name="" id="">
+                                                            <option value="Перевозчик">Перевозчик</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-items__item">
+                                                    <div class="form-item short">
+                                                        <label class="form-item__label short" for="">
+                                                            Название вашейкомпании?
+                                                        </label>
+                                                        <select class="form-item__select" name="" id="">
+                                                            <option value="Перевозчик">ООО&laquo;АККОМ&raquo;
+                                                            </option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-item add-logo__btn">
+                                                        <button class="form-item__btn short-btn">
+                                                            Добавить логотип
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="form-items__item">
+                                                    <div class="form-item short">
+                                                        <label class="form-item__label short" for="">
+                                                            Размер автопарка?
+                                                        </label>
+                                                        <input type="text" class="form-item__input">
+                                                    </div>
+                                                    <div class="form-item short">
+                                                        <label class="form-item__label short" for="">
+                                                            Главный офис компании?
+                                                        </label>
+                                                        <select class="form-item__select" name="" id="">
+                                                            <option value="Перевозчик">Беларусь, Минск</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-items__item">
+                                                    <div class="form-item short">
+                                                        <label class="form-item__label short" for="">
+                                                            Всего офисов?
+                                                        </label>
+                                                        <select class="form-item__select" name="" id="">
+                                                            <option value="Перевозчик">2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-item__add-driver">
+                                                        <div class="form-item short mr">
+                                                            <label class="form-item__label short" for="">
+                                                                Добавить водителей
+                                                            </label>
+                                                            <select class="form-item__select" name="" id="">
+                                                                <option value="Перевозчик">Никита Сардаров</option>
+                                                            </select>
+                                                        </div>
+                                                        <button type="button" class="form-item__btn add">Добавить
+                                                            водителей</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-item__title">Информация о компании</div>
+                                        <div class="form-wrap">
+                                            <div class="form-items__item">
+                                                <div class="form-item long">
+                                                    <label class="form-item__label" for="">Страна?</label>
+                                                    <select class="form-item__select" name="" id="">
+                                                        <option value="Перевозчик">Беларусь</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-items__item">
+                                                <div class="form-item long">
+                                                    <label class="form-item__label short" for="">
+                                                        Юр.лицо?
+                                                    </label>
+                                                    <input type="text" class="form-item__input">
+                                                </div>
+                                            </div>
+                                            <div class="form-items__item">
+                                                <div class="form-item long">
+                                                    <label class="form-item__label short" for="">
+                                                        УНП?
+                                                    </label>
+                                                    <input type="text" class="form-item__input">
+                                                </div>
+                                            </div>
+                                            <div class="form-items__item">
+                                                <div class="form-item__combined ">
+                                                    <div class="form-item__combined-items long">
+                                                        <div class="form-item__combined-item big">
+                                                            <label class="form-item__label" for="">
+                                                                Расчетный счет
+                                                            </label>
+                                                            <input type="text" class="form-item__input">
+                                                        </div>
+                                                        <div class="form-item__combined-item small">
+                                                            <label class="form-item__label" for="">
+                                                                Валюта
+                                                            </label>
+                                                            <select class="form-item__select" name="" id="">
+                                                                <option value="Перевозчик">BYN</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-item__combined-item medium">
+                                                            <label class="form-item__labels" for="">
+                                                                Название банка
+                                                            </label>
+                                                            <select class="form-item__select" name="" id="">
+                                                                <option value="Перевозчик">Альфа Банк</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="form-item__btn add">Добавить еще
+                                                        счет</button>
+                                                </div>
+                                            </div>
+                                            <div class="form-items__item">
+                                                <div class="form-item long">
+                                                    <label class="form-item__label short" for="">
+                                                        SWIFT?
+                                                    </label>
+                                                    <input type="text" class="form-item__input">
+                                                </div>
+                                            </div>
+                                            <div class="form-items__item">
+                                                <div class="form-item__certificate">
+                                                    <button type="button" class="form-item__btn bg">Добавить
+                                                        свидетельство о
+                                                        регистрации </button>
+                                                    <div class="form-item__text">
+                                                        По нему ваши реквизиты будут подтверждены<br>
+                                                        и вы получите верефикацию
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-items__item">
+                                                <div class="form-item__requisites">
+                                                    <button type="button" class="form-item__btn add">Добавить еще
+                                                        реквизиты</button>
+                                                    <div class="form-item__text">
+                                                        Также вы можете зарегистрироваться<br>
+                                                        как Физ.лицо
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-item__title">Контакты</div>
+                                        <div class="form-wrap">
+                                            <div class="form-items__item">
+                                                <div class="form-item__combined _phone">
+                                                    <div class="form-item__combined-wrap">
+                                                        <div class="form-item__combined-items short">
+                                                            <div class="form-item__combined-item phone">
+                                                                <label class="form-item__label" for="">
+                                                                    Номер телефона
+                                                                </label>
+                                                                <div class="phone-items">
+                                                                    <img class="phone-items__img" src="./img/by.png"
+                                                                        alt="img">
+                                                                    <select class="form-item__select" name="" id="">
+                                                                        <option value="Перевозчик">BY</option>
+                                                                    </select>
+                                                                    <input type="tel" placeholder="+375(__)___-__-__"
+                                                                        id="phone" class="form-item__input">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <button type="button" class="form-item__btn add">Добавить
+                                                            еще
+                                                            телефон</button>
+                                                    </div>
+                                                    <div class="form-item__messengers">
+                                                        <div class="messengers-title">
+                                                            По этому телефону есть
+                                                        </div>
+                                                        <div class="messengers__items">
+                                                            <div class="messengers__item">
+                                                                <input class="messengers__item-input" type="checkbox"
+                                                                    name="viber" value="viber">
+                                                                <label class="messengers__item-label"
+                                                                    for="viber">Viber</label>
+                                                            </div>
+                                                            <div class="messengers__item">
+                                                                <input class="messengers__item-input" type="checkbox"
+                                                                    name="whatsapp" value="whatsapp">
+                                                                <label class="messengers__item-label"
+                                                                    for="whatsapp">WhatsApp</label>
+                                                            </div>
+                                                            <div class="messengers__item">
+                                                                <input class="messengers__item-input" type="checkbox"
+                                                                    name="telegram" value="telegram">
+                                                                <label class="messengers__item-label"
+                                                                    for="telegram">Telegram</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-items__item">
+                                                <div class="form-item__add-email">
+                                                    <div class="form-item short">
+                                                        <label class="form-item__label short" for="">
+                                                            Ваш e-mail
+                                                        </label>
+                                                        <select class="form-item__select" name="" id="">
+                                                            <option value="Перевозчик">e.p.kravtsov@yandex.ru
+                                                            </option>
+                                                        </select>
+                                                    </div>
+                                                    <button type="button" class="form-item__btn add">Добавить еще
+                                                        e-mail</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="pop-up">
+                                    <button type="button"></button>
+                                </div>
+                                <div class="filling-profile">
+                                    <div class="filling-profile__items">
+                                        <div class="fill-profile">
+                                            <div class="fill-profile__percent">87%</div>
+                                            <div class="fill-profile__text">Заполните профиль полностью</div>
+                                        </div>
+                                        <div class="fill-pofile">
+                                            <button class="fill-pofile__btn" type="button">Добавить профиль</button>
+                                            <span class="fill-pofile__skip">Пропустить шаг</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="about-items">
+                    <div class="about-item">
+                        <div class="about-item__title">
+                            <span>Основное</span>
+                        </div>
+                        <div class="about-item__services">
+                            <div class="about-items__extra">
+                                <div class="about-item__extra-title">
+                                    <span>Грузы</span>
+                                </div>
+                                <div class="about-item__extra-services">
+                                    <ul class="extra-services__items">
+                                        <li class="extra-services__item">
+                                            <a href="#">Списком</a>
+                                        </li>
+                                        <li class="extra-services__item">
+                                            <a href="#">На карте</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-items__extra">
+                                <div class="about-item__extra-title">
+                                    <span>Транспорт</span>
+                                </div>
+                                <div class="about-item__extra-services">
+                                    <ul class="extra-services__items">
+                                        <li class="extra-services__item">
+                                            <a href="#">Списком</a>
+                                        </li>
+                                        <li class="extra-services__item">
+                                            <a href="#">Рассчитать стоимость</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-items__extra">
+                                <div class="about-item__extra-title">
+                                    <span>Аукцион</span>
+                                </div>
+                                <div class="about-item__extra-services">
+                                    <ul class="extra-services__items">
+                                        <li class="extra-services__item">
+                                            <a href="#">Грузы</a>
+                                        </li>
+                                        <li class="extra-services__item">
+                                            <a href="#">Транспорт</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-item__title">
+                            <span>Дополнительно</span>
+                        </div>
+                        <div class="about-item__additionally">
+                            <ul class="additionally__items">
+                                <li class="additionally__item">
+                                    <a href="#">О нас</a>
+                                </li>
+                                <li class="additionally__item">
+                                    <a href="#">Как работает</a>
+                                </li>
+                                <li class="additionally__item">
+                                    <a href="#">Новости</a>
+                                </li>
+                                <li class="additionally__item">
+                                    <a href="#">База знаний</a>
+                                </li>
+                                <li class="additionally__item">
+                                    <a href="#">Контакты</a>
+                                </li>
+                                <li class="additionally__item">
+                                    <a href="#">Раздел если будет</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-item__title">
+                            <span>Техническая поддержка</span>
+                        </div>
+                        <div class="about-item__contacts">
+                            <div class="about-item__contact">
+                                <span class="about-item__contact-title">Телефон</span>
+                                <div class="about-item__contact-connection contact-connection__tel">
+                                    <a href="tel:+375 29 360-45-77">
+                                        +375 29360-45-77
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="about-item__contact">
+                                <span class="about-item__contact-title">E-mail</span>
+                                <div class="about-item__contact-connection contact-connection__email">
+                                    <a href="mailto:sup@zigmus.com">sup@zigmus.com</a>
+                                </div>
+                                <div class="about-item__contact-button">
+                                    <button type="button">Написать</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-items">
+                    <div class="footer-logo">
+                        <div class="logo__img">
+                            <a href="#"><img src="./img/logo_footer.png" alt="logo"></a>
+                        </div>
+                        <div class="footer-slogan">
+                            <span>Платформа работает в beta <br> режиме</span>
+                        </div>
+                    </div>
+                    <div class="conditions-items">
+                        <div class="conditions-item">
+                            <a class="conditions-item__terms" href="#">Пользовательское соглашение</a>
+                        </div>
+                        <div class="conditions-item">
+                            <a class="conditions-item__privacy" href="#">Пользовательское соглашение</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <div class="social-links__item">
+                            <a class="social-links__item-vk" href="#"><img src="./img/vk.png" alt="vk"></a>
+                        </div>
+                        <div class="social-links__item">
+                            <a class="social-links__item-fb" href="#"><img src="./img/facebook.png" alt="facebook"></a>
+                        </div>
+                        <div class="social-links__item">
+                            <a class="social-links__item-inst" href="#"><img src="./img/inst.png" alt="inst"></a>
+                        </div>
+                    </div>
+                    <div class="suggest-idea">
+                        <a class="suggest-idea__link" href="#">Предложить идею</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
